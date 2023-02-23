@@ -37,7 +37,7 @@ def validate_response(response):
         return False
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Detect the baud rate of a device connected to an FT232RL USB-to-serial adapter')
+    parser = argparse.ArgumentParser(description='Detect the baud rate of a device connected to an USB-to-serial adapter')
     parser.add_argument('port', type=str, help='The name of the serial port to scan')
     parser.add_argument('-t', '--timeout', type=float, default=DEFAULT_TIMEOUT, help='The timeout for serial communication in seconds (default: 3)')
     parser.add_argument('-a', '--all', action='store_true', help='If set, scan all possible UART baud rates (may take longer)')
