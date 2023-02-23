@@ -17,7 +17,7 @@ To install the required Python packages, run the following command:
 ```bash
 $ git clone https://github.com/erd0spy/serial-baud-rate-detector
 $ cd serial-baud-rate-detector
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ $ pip install -r requirements.txt
 To use the script, run the following command:
 
 ```bash
-$ python baud-rate-detector.py [serial port] [options]
+$ python3 baud-rate-detector.py [serial port] [options]
 ```
 
 Replace `[serial port]` with the name of the serial port to scan (e.g., `/dev/ttyUSB0` on Linux or `COM3` on Windows). The following options are available:
